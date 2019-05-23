@@ -16,3 +16,6 @@ http://[server]/filerun/customizables/plugins/audio_player/
 ![alt tag](https://emreovunc.com/blog/en/FileRun-DirectoryListing-2.png)
 
 ![alt tag](https://emreovunc.com/blog/en/FileRun-DirectoryListing-3.png)
+
+## Remediation
+You should make sure the directory does not contain sensitive information or you may want to restrict directory listings from the web server configuration.
