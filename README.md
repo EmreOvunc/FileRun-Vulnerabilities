@@ -5,7 +5,7 @@
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-XXXX
 
 
-### PoC #1 - Directory Listing
+### PoC - Directory Listing
 ```
 http://[server]/filerun/images/extjs/
 http://[server]/filerun/css/ext-ux/
