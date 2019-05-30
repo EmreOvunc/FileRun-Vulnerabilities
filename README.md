@@ -1,8 +1,13 @@
 # FileRun Vulnerabilities and Exploits
 [FileRun](https://filerun.com) application has many vulnerabilities.
 
-## CVE-2019-XXXX
-https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-XXXX
+## CVE-2019-12457 - CVE-2019-12458 - CVE-2019-12459
+
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12457
+
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12458
+
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12459
 
 
 ### PoC - Directory Listing
