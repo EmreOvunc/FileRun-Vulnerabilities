@@ -11,7 +11,7 @@ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12458
 
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12459
 
-### PoC - XSS
+## PoC - XSS
 To exploit vulnerability, someone could upload an allowed file named ```“><img src=x onerror=prompt(document.domain)>``` to impact users who open the page.
 
 ```
@@ -62,7 +62,7 @@ Content-Type: image/jpg
 
 ![alt tag](https://emreovunc.com/blog/en/FileRun-XSS-Exploit-Vulnerability-03.png)
 
-### PoC - Directory Listing
+## PoC - Directory Listing
 ```
 http://[server]/filerun/images/extjs/
 http://[server]/filerun/css/ext-ux/
