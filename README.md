@@ -59,7 +59,7 @@ Content-Type: image/jpg
 ## PoC - Open Redirect
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-XXXXX
 
-An open redirect vulnerability exists in FileRun in '/filerun/images/fico/ext2ico.php?theme=' URL that allows attackers to redirect users to an arbitrary URL. A web application accepts a user-controlled input that specifies a link to an external site, and uses that link in a Redirect.
+An open redirect vulnerability exists in FileRun in '**/filerun/images/fico/ext2ico.php?theme=**' URL that allows attackers to redirect users to an arbitrary URL. A web application accepts a user-controlled input that specifies a link to an external site, and uses that link in a Redirect.
 
 ```
 GET /filerun/images/fico/ext2ico.php?theme=https://filerun.com/isaid:)? HTTP/1.1
